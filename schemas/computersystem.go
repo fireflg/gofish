@@ -2151,7 +2151,7 @@ type SerialConsoleProtocol struct {
 	// shared with access to the manager's command-line interface (CLI).
 	//
 	// Version added: v1.13.0
-	SharedWithManagerCLI bool
+	SharedWithManagerCLI interface{}
 }
 
 // TrustedModules shall describe a Trusted Module for a system.
